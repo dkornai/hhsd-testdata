@@ -1,7 +1,0 @@
-#NEXUS
-BEGIN TREES;
-	UTREE 1 = ((salvini_grp_1: 0.005432, salvini_grp_2: 0.005432)salvini_grp_1salvini_grp_2[&height_95%_HPD={0.00429900, 0.00676800}, theta=0.0010311]: 0.000602, (salvini_grp_3: 0.004128, (salvini_grp_4: 0.003439, ((salvini_grp_7: 0.003025, aztecus: 0.003025)salvini_grp_7aztecus[&height_95%_HPD={0.00232400, 0.00391800}, theta=0.0027024]: 0.000373, ((salvini_grp_5_A: 0.000488, salvini_grp_5_B: 0.000488)salvini_grp_5_Asalvini_grp_5_B[&height_95%_HPD={0.00033600, 0.00067900}, theta=0.0021572]: 0.002730, (salvini_grp_6: 0.001838, salvini: 0.001838)salvini_grp_6salvini[&height_95%_HPD={0.00112100, 0.00270000}, theta=0.0049996]: 0.001380)salvini_grp_5_Asalvini_grp_5_Bsalvini_grp_6salvini[&height_95%_HPD={0.00243200, 0.00402100}, theta=0.0017805]: 0.000180)salvini_grp_7aztecussalvini_grp_5_Asalvini_grp_5_Bsalvini_grp_6salvini[&height_95%_HPD={0.00260000, 0.00409800}, theta=0.0014429]: 0.000041)salvini_grp_4salvini_grp_7aztecussalvini_grp_5_Asalvini_grp_5_Bsalvini_grp_6salvini[&height_95%_HPD={0.00260500, 0.00417100}, theta=0.0069352]: 0.000689)salvini_grp_3salvini_grp_4salvini_grp_7aztecussalvini_grp_5_Asalvini_grp_5_Bsalvini_grp_6salvini[&height_95%_HPD={0.00323500, 0.00526000}, theta=0.0038821]: 0.001906)salvini_grp_1salvini_grp_2salvini_grp_3salvini_grp_4salvini_grp_7aztecussalvini_grp_5_Asalvini_grp_5_Bsalvini_grp_6salvini[&height_95%_HPD={0.00495500, 0.00715500}, theta=0.0099931];
-END;
-
-[Species tree with tau as branch lengths and theta as labels, for FigTree.
-In FigTree, choose 95%HPD for Node Bars and label for Node Labels]

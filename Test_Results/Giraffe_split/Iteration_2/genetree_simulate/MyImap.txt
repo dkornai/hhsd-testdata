@@ -1,4 +1,0 @@
-tippelskirchi	tippelskirchi
-cam_rot_antperalta	cam_rot_antperalta
-reticulata	reticulata
-giraffa	giraffa

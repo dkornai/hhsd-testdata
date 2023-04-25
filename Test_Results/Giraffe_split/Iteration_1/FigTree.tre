@@ -1,7 +1,0 @@
-#NEXUS
-BEGIN TREES;
-	UTREE 1 = (giraffatippelskirchi: 0.004823, cam_rot_antperaltareticulata: 0.004823)giraffatippelskirchicam_rot_antperaltareticulata[&height_95%_HPD={0.00194300, 0.00834800}, theta=0.0013891];
-END;
-
-[Species tree with tau as branch lengths and theta as labels, for FigTree.
-In FigTree, choose 95%HPD for Node Bars and label for Node Labels]
