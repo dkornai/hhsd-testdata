@@ -1,0 +1,5 @@
+peralta	peralta
+tippelskirchi	tippelskirchi
+giraffa	giraffa
+cam_rot_ant	cam_rot_ant
+reticulata	reticulata

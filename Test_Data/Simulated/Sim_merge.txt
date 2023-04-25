@@ -1,0 +1,20 @@
+output_directory = ../Test_Results/Sim_merge
+
+Imapfile = MyImap.txt
+seqfile  = MySeq.txt
+
+guide_tree = ((A,B),C);
+migration = {
+    A -> B,
+    B -> A,
+}
+migprior = 40 20
+thetaprior = 3 0.04 e
+tauprior = 3 0.04
+
+mode = merge
+gdi_threshold = <0.2
+
+threads = 12
+burnin =  500
+nsample = 2000

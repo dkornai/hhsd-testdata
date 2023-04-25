@@ -1,0 +1,16 @@
+,theta,tau
+Pecos,0.00033,
+Llano,0.001086,
+Concho,0.00043,
+SanSaba,0.000507,
+Guadalupe,0.000775,
+Pedernales,0.000311,
+Nueces,0.000706,
+FrioSanAntonio,0.000584,
+ConchoSanSabaPecosLlanoGuadalupePedernalesNuecesFrioSanAntonio,0.001535,0.001297
+ConchoSanSabaPecos,0.001231,0.001209
+ConchoSanSaba,0.000935,0.001081
+LlanoGuadalupePedernalesNuecesFrioSanAntonio,0.000945,0.000688
+GuadalupePedernalesNuecesFrioSanAntonio,0.000762,0.000536
+GuadalupePedernales,0.001303,0.000494
+NuecesFrioSanAntonio,0.000696,0.000362

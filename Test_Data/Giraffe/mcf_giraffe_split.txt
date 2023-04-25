@@ -1,0 +1,20 @@
+output_directory = res_giraffe_split
+
+Imapfile = Imap_Giraffe.txt
+seqfile = MSA_Giraffe.txt
+
+guide_tree = ((giraffa, tippelskirchi), ((cam_rot_ant, peralta), reticulata));
+migration = {
+    reticulata -> tippelskirchi,
+    tippelskirchi -> reticulata,
+    reticulata  -> cam_rot_ant,
+    cam_rot_ant -> reticulata,
+}
+migprior = 0.1 10
+
+mode = split
+gdi_threshold = >0.7
+
+threads = 8
+burnin = 5000
+nsample = 10000

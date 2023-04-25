@@ -1,0 +1,59 @@
+11 salvini_grp_1
+12 salvini_grp_1
+
+13 salvini_grp_2
+14 salvini_grp_2
+
+15 salvini_grp_3
+16 salvini_grp_3
+
+17 salvini_grp_4
+18 salvini_grp_4
+
+23 salvini_grp_5_A
+24 salvini_grp_5_A
+25 salvini_grp_5_A
+26 salvini_grp_5_A
+
+27 salvini_grp_5_B
+28 salvini_grp_5_B
+29 salvini_grp_5_B
+30 salvini_grp_5_B
+31 salvini_grp_5_B
+32 salvini_grp_5_B
+33 salvini_grp_5_B
+34 salvini_grp_5_B
+35 salvini_grp_5_B
+36 salvini_grp_5_B
+37 salvini_grp_5_B
+38 salvini_grp_5_B
+
+39 salvini_grp_6
+40 salvini_grp_6
+41 salvini_grp_6
+42 salvini_grp_6
+43 salvini_grp_6
+44 salvini_grp_6
+
+19 salvini
+20 salvini
+21 salvini
+22 salvini
+45 salvini
+46 salvini
+47 salvini
+48 salvini
+
+49 salvini_grp_7
+50 salvini_grp_7
+
+1 aztecus
+2 aztecus
+3 aztecus
+4 aztecus
+5 aztecus
+6 aztecus
+7 aztecus
+8 aztecus
+9 aztecus
+10 aztecus

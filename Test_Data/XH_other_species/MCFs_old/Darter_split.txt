@@ -1,0 +1,14 @@
+output_directory = ../Test_Results/Darter_split
+
+Imapfile = ../Test_Data/Darter_imap.txt
+seqfile = ../Test_Data/Darter_MSA.txt
+
+guide_tree = (((Concho, SanSaba), Pecos),(Llano,((Guadalupe, Pedernales),(Nueces,(Frio, SanAntonio)))));
+*guide_tree =  (SanSaba, ((Concho, Pecos),((Llano, Pedernales),((Guadalupe,Nueces),(Frio, SanAntonio)))));
+
+mode = split
+gdi_threshold = >0.7
+
+threads = 8
+burnin = 20000
+nsample = 20000

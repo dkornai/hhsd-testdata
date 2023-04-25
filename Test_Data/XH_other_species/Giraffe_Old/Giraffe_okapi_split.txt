@@ -1,0 +1,20 @@
+output_directory = ../Test_Results/Giraffe_split
+
+Imapfile = ../Test_Data/Giraffe_okapi_imap.txt
+seqfile = ../Test_Data/Giraffe_okapi_MSA.txt
+
+guide_tree = ((((angolensis, giraffa), (thornicrofti, tippelskirchi)), ((((antiquorum, camelopardalis), rothschildi), peralta), reticulata)), okapia);
+migration = {
+    reticulata -> tippelskirchi,
+    tippelskirchi -> reticulata,
+    reticulata  -> rothschildi,
+    rothschildi -> reticulata,
+}
+migprior = 0.1 10
+
+mode = split
+gdi_threshold = >0.7
+
+threads = 8
+burnin = 5000
+nsample = 10000

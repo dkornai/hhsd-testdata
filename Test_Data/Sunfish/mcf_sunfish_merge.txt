@@ -1,0 +1,19 @@
+output_directory = ../Test_Results/Sunfish_merge
+
+Imapfile = Sunfish_imap.txt
+seqfile = Sunfish_MSA.txt
+phase = 1
+guide_tree = (((((PEL, OZK), MEG), LIT), SOL), AQU);
+migration = {
+	MEG -> PEL,
+	MEG -> SOL,
+	MEG -> OZK
+}
+migprior = 0.1 10
+
+mode = merge
+gdi_threshold = <0.3
+
+threads = 8
+burnin = 1000
+nsample = 1000

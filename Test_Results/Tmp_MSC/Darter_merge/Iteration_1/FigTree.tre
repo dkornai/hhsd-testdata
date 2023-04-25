@@ -1,0 +1,7 @@
+#NEXUS
+BEGIN TREES;
+	UTREE 1 = (((Concho: 0.001060, SanSaba: 0.001060)ConchoSanSaba[&height_95%_HPD={0.00068000, 0.00149200}, theta=0.0012186]: 0.000170, Pecos: 0.001229)ConchoSanSabaPecos[&height_95%_HPD={0.00087600, 0.00161400}, theta=0.0011489]: 0.000081, (Llano: 0.000685, ((Guadalupe: 0.000481, Pedernales: 0.000481)GuadalupePedernales[&height_95%_HPD={0.00025200, 0.00069200}, theta=0.0008617]: 0.000039, (Nueces: 0.000347, (Frio: 0.000110, SanAntonio: 0.000110)FrioSanAntonio[&height_95%_HPD={0.00004100, 0.00019100}, theta=0.0004537]: 0.000237)NuecesFrioSanAntonio[&height_95%_HPD={0.00019700, 0.00053300}, theta=0.0007453]: 0.000173)GuadalupePedernalesNuecesFrioSanAntonio[&height_95%_HPD={0.00030600, 0.00074400}, theta=0.0007617]: 0.000164)LlanoGuadalupePedernalesNuecesFrioSanAntonio[&height_95%_HPD={0.00049400, 0.00091300}, theta=0.0009328]: 0.000625)ConchoSanSabaPecosLlanoGuadalupePedernalesNuecesFrioSanAntonio[&height_95%_HPD={0.00101200, 0.00174500}, theta=0.0014785];
+END;
+
+[Species tree with tau as branch lengths and theta as labels, for FigTree.
+In FigTree, choose 95%HPD for Node Bars and label for Node Labels]

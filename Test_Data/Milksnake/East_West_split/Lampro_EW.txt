@@ -1,0 +1,13 @@
+output_directory = ../Test_Results/Lampro_EW
+
+Imapfile = 
+seqfile = ../Test_Data/Lampropeltis/EW_splits/trigentalt.txt
+
+guide_tree = ((Ge,Tr),Al);
+
+mode = merge
+gdi_threshold = <0.3
+
+threads = 8
+burnin = 100000
+nsample = 100000

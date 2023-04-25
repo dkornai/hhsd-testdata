@@ -1,0 +1,13 @@
+output_directory = ../Test_Results/Sarracenia_merge
+
+Imapfile = ../Test_Data/Sarracenia_imap.txt
+seqfile = ../Test_Data/Sarracenia_MSA.txt
+
+guide_tree = (((eTX, popC), popK), ((eLA, popD), popF));
+
+mode = merge
+gdi_threshold = <0.2
+
+threads = 8
+burnin = 10000
+nsample = 10000

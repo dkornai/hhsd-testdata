@@ -1,0 +1,13 @@
+output_directory = ../Test_Results/Lampro_split
+
+Imapfile = Lampropeltis_imap.txt
+seqfile = Lampropeltis_MSA.txt
+
+guide_tree = (((Po, (Ab, Mi)), (An, (Ge, Tr))), El);
+
+mode = split
+gdi_threshold = >0.7
+
+threads = 8
+burnin = 1000
+nsample = 1000

@@ -1,0 +1,18 @@
+output_directory = ../Test_Results/Lizard_merge
+
+Imapfile = ../Test_Data/Lizard_imap.txt
+seqfile = ../Test_Data/Lizard_MSA.txt
+
+guide_tree = ((((SCA, NBC),NCA),CBC),SBC);
+migration = {
+    SCA -> NBC,
+    NBC -> SCA,
+}
+migprior = 0.1 10
+
+mode = merge
+gdi_threshold = <0.3
+
+threads = 2
+burnin = 5000
+nsample = 5000

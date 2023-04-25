@@ -1,0 +1,7 @@
+#NEXUS
+BEGIN TREES;
+	UTREE 1 = (((Po: 0.000711, (Ab: 0.000639, Mi: 0.000639)AbMi[&height_95%_HPD={0.00048800, 0.00082400}, theta=0.0032377]: 0.000071)PoAbMi[&height_95%_HPD={0.00056300, 0.00088100}, theta=0.0035044]: 0.000869, AnGeTr: 0.001580)PoAbMiAnGeTr[&height_95%_HPD={0.00132900, 0.00183400}, theta=0.0042623]: 0.000044, El: 0.001624)PoAbMiAnGeTrEl[&height_95%_HPD={0.00135800, 0.00185500}, theta=0.0083815];
+END;
+
+[Species tree with tau as branch lengths and theta as labels, for FigTree.
+In FigTree, choose 95%HPD for Node Bars and label for Node Labels]

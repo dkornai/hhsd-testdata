@@ -1,0 +1,13 @@
+output_directory = ../Test_Results/Beetle_merge
+
+Imapfile = ../Test_Data/Beetle_imap.txt
+seqfile = ../Test_Data/Beetle_MSA.txt
+guide_tree = (((((ecuP,ecuE),ecuC),morB),pasB),((licE,licP),licC));
+phase = 1
+
+mode = merge
+gdi_threshold = <0.5
+
+threads = 8
+burnin = 500
+nsample = 1000
