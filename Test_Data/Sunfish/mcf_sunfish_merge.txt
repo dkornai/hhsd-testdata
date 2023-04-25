@@ -14,7 +14,7 @@ migprior = 0.1 10
 mode = merge
 gdi_threshold = <0.3
 
-threads = 8
+threads = 12
 burnin = 5000
 nsample = 10000
 
