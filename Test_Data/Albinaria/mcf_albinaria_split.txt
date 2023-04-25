@@ -1,4 +1,4 @@
-output_directory = ../Test_Results/Albinaria_split
+output_directory = res_albinaria_split
 
 Imapfile = Albinaria_imap.txt
 seqfile = Albinaria_MSA.txt

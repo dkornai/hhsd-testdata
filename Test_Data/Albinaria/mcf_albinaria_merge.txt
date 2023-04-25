@@ -1,4 +1,4 @@
-output_directory = ../Test_Results/Albinaria_merge
+output_directory = res_albinaria_merge
 
 Imapfile = Albinaria_imap.txt
 seqfile = Albinaria_MSA.txt
