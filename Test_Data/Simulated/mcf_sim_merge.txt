@@ -1,4 +1,4 @@
-output_directory = ../Test_Results/Sim_merge
+output_directory = res_sim_merge
 
 Imapfile = MyImap.txt
 seqfile  = MySeq.txt

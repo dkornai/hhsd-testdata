@@ -1,0 +1,13 @@
+output_directory = 
+
+Imapfile = 
+seqfile = trigentalt.txt
+
+guide_tree = ((Ge,Tr),Al);
+
+mode = merge
+gdi_threshold = <0.3
+
+threads = 8
+burnin = 5000
+nsample = 10000

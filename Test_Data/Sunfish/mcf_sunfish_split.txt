@@ -1,7 +1,7 @@
-output_directory = ../Test_Results/Sunfish_split
+output_directory = res_sunfish_split
 
-Imapfile = Sunfish_imap.txt
-seqfile = Sunfish_MSA.txt
+Imapfile = Imap_Sunfish.txt
+seqfile = MSA_Sunfish.txt
 phase = 1
 guide_tree = (((((PEL, OZK), MEG), LIT), SOL), AQU);
 migration = {
@@ -15,5 +15,5 @@ mode = split
 gdi_threshold = >0.7
 
 threads = 8
-burnin = 1000
-nsample = 1000
+burnin = 5000
+nsample = 10000

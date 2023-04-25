@@ -1,4 +1,4 @@
-output_directory = ../Test_Results/Sim_split
+output_directory = res_sim_split
 
 Imapfile = MyImap.txt
 seqfile  = MySeq.txt
