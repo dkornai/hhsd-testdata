@@ -22,7 +22,7 @@ https://doi.org/10.1093/sysbio/syab029
 
 ### Simulated
 
-Data simulated using the MSC+M model according to the sim.ctl file in the 'Simulated' directory. 
+https://doi.org/10.1093/sysbio/syy051
 
 ## Running analyses
 
