@@ -4,6 +4,11 @@ Imapfile =
 seqfile = trigentalt.txt
 
 guide_tree = ((Ge,Tr),Al);
+migration = {
+    Ge -> Tr,
+    Tr -> Ge,
+}
+migprior = 0.1 10
 
 mode = merge
 gdi_threshold = <0.3
