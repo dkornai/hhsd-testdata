@@ -4,16 +4,6 @@ Imapfile = MyImap.txt
 seqfile  = MySeq.txt
 
 guide_tree = (((A,B),(C,D)),X);
-migration = {
-    A -> B,
-    B -> A,
-    B -> C,
-    C -> B,
-    C -> D,
-    D -> C,
-}
-migprior = 40 20
-
 
 mode = split
 gdi_threshold = >0.7
