@@ -31,3 +31,7 @@ runs all analyses with very large burnin and nsample. Can take days or weeks to 
 
 `run_all_delimit_fast.sh`
 runs all analyses with small burnin and nsample. Should take hours to complete.
+
+## Precomputed results
+
+The 'Results' Directory contains the output from the analyses.

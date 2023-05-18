@@ -1,0 +1,10 @@
+X_1	X
+X_2	X
+A_1	AB
+A_2	AB
+B_1	AB
+B_2	AB
+C_1	CD
+C_2	CD
+D_1	CD
+D_2	CD

@@ -1,0 +1,9 @@
+seed=1111
+treefile=MyTree.tre
+Imapfile=MyImap.txt
+species&tree=4 AQU SOL LIT PELOZKMEG
+                    2 2 2 2 
+                ( ( (PELOZKMEG #0.004482,LIT #0.001106) PELOZKMEGLIT :0.000342 #0.034567,SOL #0.002743) PELOZKMEGLITSOL :0.000883 #0.004765,AQU #0.007118) PELOZKMEGLITSOLAQU :0.000902 #0.005539;
+loci&length=1000000 500
+migration = 1
+ PELOZKMEG SOL 0.578853

@@ -1,0 +1,7 @@
+#NEXUS
+BEGIN TREES;
+	UTREE 1 = (GeTr: 0.001481, Al: 0.001481)GeTrAl[&height_95%_HPD={0.00099000, 0.00202100}, theta=0.0059821];
+END;
+
+[Species tree with tau as branch lengths and theta as labels, for FigTree.
+In FigTree, choose 95%HPD for Node Bars and label for Node Labels]

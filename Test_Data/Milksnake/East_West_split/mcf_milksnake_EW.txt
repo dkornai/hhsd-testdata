@@ -14,5 +14,5 @@ mode = merge
 gdi_threshold = <0.3
 
 threads = 8
-burnin = 5000
-nsample = 10000
+burnin = 50000
+nsample = 50000

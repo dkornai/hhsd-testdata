@@ -1,0 +1,5 @@
+,source,destination,M
+0,tippelskirchi,reticulata,0.002389
+1,reticulata,tippelskirchi,0.001613
+2,reticulata,cam_rot_ant,0.027159
+3,cam_rot_ant,reticulata,0.123289
