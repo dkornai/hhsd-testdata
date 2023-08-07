@@ -12,7 +12,7 @@ migration = {
 migprior = 0.1 10
 
 mode = split
-gdi_threshold = >0.7
+GDI_threshold = >0.7
 
 threads = 12
 burnin = 5000

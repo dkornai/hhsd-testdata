@@ -6,7 +6,7 @@ seqfile = MSA_Lampropeltis.txt
 guide_tree = (((Po, (Ab, Mi)), (An, (Ge, Tr))), El);
 
 mode = merge
-gdi_threshold = <0.3
+GDI_threshold = <0.3
 
 threads = 8
 burnin = 5000

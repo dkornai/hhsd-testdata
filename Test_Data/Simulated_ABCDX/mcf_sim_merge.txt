@@ -5,9 +5,8 @@ seqfile  = MySeq.txt
 
 guide_tree = (((A,B),(C,D)),X);
 
-
 mode = merge
-gdi_threshold = <0.2
+GDI_threshold = <0.2
 
 threads = 12
 burnin =  500

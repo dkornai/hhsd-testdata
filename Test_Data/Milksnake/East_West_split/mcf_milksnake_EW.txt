@@ -11,7 +11,7 @@ migration = {
 migprior = 0.1 10
 
 mode = merge
-gdi_threshold = <0.3
+GDI_threshold = <0.3
 
 threads = 8
 burnin = 50000

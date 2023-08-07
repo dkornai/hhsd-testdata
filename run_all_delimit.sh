@@ -8,8 +8,8 @@ cd Milksnake/Species_Delimitation
 bash delimit_Milksnake.sh
 cd ../..
 
-cd Simulated
-bash delimit_Simulated.sh
+cd Simulated_ABCDX
+bash delimit_Simulated_ABCDX.sh
 cd ..
 
 cd Sunfish
