@@ -16,9 +16,10 @@
 /Test_Data/Milksnake/East_West_split/res_EW_5
 /Test_Data/Milksnake/East_West_split/res_pop1_pop6
 /Test_Data/Milksnake/East_West_split/SeedUsed
-/Test_Data/Simulated/res_sim_merge
-/Test_Data/Simulated/res_sim_split
-/Test_Data/Simulated/SeedUsed
+/Test_Data/Simulated_ABCDX/res_sim_merge
+/Test_Data/Simulated_ABCDX/res_sim_split
+/Test_Data/Simulated_ABCDX/SeedUsed
+/Test_Data/Simulated_ABCDX/XABCD.MCcoal.migration.ctl
 /Test_Data/Sunfish/res_sim_merge
 /Test_Data/Sunfish/res_sim_split
 /Test_Data/Sunfish/SeedUsed
