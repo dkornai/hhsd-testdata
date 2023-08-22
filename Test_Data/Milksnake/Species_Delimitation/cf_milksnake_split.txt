@@ -3,7 +3,7 @@ output_directory = res_milksnake_split
 Imapfile = Imap_Lampropeltis.txt
 seqfile = MSA_Lampropeltis.txt
 
-guide_tree = (((Po, (Ab, Mi)), (An, (Ge, Tr))), El);
+guide_tree = (((Mi, (Po, Ab)), (An, (Ge, Tr))), El);
 migration = {
 	Po <-> Ab,
 	Po <-> An,
