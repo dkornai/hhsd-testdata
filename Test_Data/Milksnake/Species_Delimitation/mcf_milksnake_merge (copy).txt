@@ -4,15 +4,6 @@ Imapfile = Imap_Lampropeltis.txt
 seqfile = MSA_Lampropeltis.txt
 
 guide_tree = (((Po, (Ab, Mi)), (An, (Ge, Tr))), El);
-migration = {
-	Po -> Ab,
-	Ab -> Po,
-	Ab -> Mi,
-	Mi -> Ab,
-	Ge <-> Tr,
-	}
-	
-migprior = 0.1 10
 
 mode = merge
 GDI_threshold = <0.3

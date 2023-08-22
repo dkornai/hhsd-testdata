@@ -1483,11 +1483,11 @@ COMPRESSED ALIGNMENTS
 Per-locus sequences in data and 'species&tree' tag:
 C.File | Data |                Status                | Population
 -------+------+--------------------------------------+-----------
-    23 |   23 | [OK]                                 | giraffa   
-     7 |    7 | [OK]                                 | tippelskirchi
-    12 |   12 | [OK]                                 | reticulata
+    23 |   23 | [OK]                                 | gir_ang   
+     7 |    7 | [OK]                                 | tip_tho
+    12 |   12 | [OK]                                 | ret
     17 |   17 | [OK]                                 | cam_rot_ant
-     7 |    7 | [OK]                                 | peralta   
+     7 |    7 | [OK]                                 | per   
 
 
 Initial MSC density and log-likelihood of observing data:
@@ -1522,10 +1522,10 @@ mthet3: mean theta of node 2
  mtau1: mean tau of node 5
  mtau2: mean tau of node 6
  mtau3: mean tau of node 7
- mmrt1: mean migration rate tippelskirchi -> reticulata
- mmrt2: mean migration rate reticulata -> tippelskirchi
- mmrt3: mean migration rate reticulata -> cam_rot_ant
- mmrt4: mean migration rate cam_rot_ant -> reticulata
+ mmrt1: mean migration rate tip_tho -> ret
+ mmrt2: mean migration rate ret -> tip_tho
+ mmrt3: mean migration rate ret -> cam_rot_ant
+ mmrt4: mean migration rate cam_rot_ant -> ret
 log-PG: log-probability of gene trees (MSC)
  log-L: mean log-L of observing data
 
@@ -1599,7 +1599,7 @@ New finetune:      1.60288 0.02284 0.00021 0.00003 0.15581   -    -    -    -   
 
 1:50:51 spent in MCMC
 
-          theta_1giraffa	theta_2tippelskirchi	theta_3reticulata	theta_4cam_rot_ant	theta_5peralta	theta_6giraffatippelskirchicam_rot_antperaltareticulata	theta_7giraffatippelskirchi	theta_8cam_rot_antperaltareticulata	theta_9cam_rot_antperalta	tau_6giraffatippelskirchicam_rot_antperaltareticulata	tau_7giraffatippelskirchi	tau_8cam_rot_antperaltareticulata	tau_9cam_rot_antperalta	M_tippelskirchi->reticulata	M_reticulata->tippelskirchi	M_reticulata->cam_rot_ant	M_cam_rot_ant->reticulata	lnL
+          theta_1giraffa	theta_2tippelskirchi	theta_3reticulata	theta_4cam_rot_ant	theta_5peralta	theta_6giraffatippelskirchicam_rot_antperaltareticulata	theta_7giraffatippelskirchi	theta_8cam_rot_antperaltareticulata	theta_9cam_rot_antperalta	tau_6giraffatippelskirchicam_rot_antperaltareticulata	tau_7giraffatippelskirchi	tau_8cam_rot_antperaltareticulata	tau_9cam_rot_antperalta	M_tippelskirchi->ret	M_reticulata->tip_tho	M_reticulata->cam_rot_ant	M_cam_rot_ant->ret	lnL
 mean      0.000422  0.000331  0.000668  0.000553  0.000547  0.003148  0.001844  0.000966  0.000717  0.000713  0.000316  0.000279  0.000152  0.002389  0.001613  0.027159  0.123289  -25521.365784
 median    0.000415  0.000322  0.000644  0.000536  0.000518  0.003097  0.001681  0.000929  0.000629  0.000703  0.000307  0.000266  0.000148  0.000019  0.000011  0.001619  0.105567  -25521.220000
 S.D       0.000085  0.000077  0.000192  0.000151  0.000176  0.000579  0.000847  0.000320  0.000382  0.000112  0.000078  0.000090  0.000042  0.006525  0.004826  0.045217  0.110169  13.440575
@@ -1613,11 +1613,11 @@ ESS*      875.891938  2862.494582  572.443006  706.745243  1976.344781  11165.52
 Eff*      0.001752  0.005725  0.001145  0.001413  0.003953  0.022331  0.004679  0.004206  0.007993  0.002997  0.002584  0.000756  0.001619  0.001318  0.006207  0.000399  0.000410  0.006996
 List of nodes, taus and thetas:
 Node (+1)       Tau      Theta    Label
-0          0.000000   0.000422    giraffa
-1          0.000000   0.000331    tippelskirchi
-2          0.000000   0.000668    reticulata
+0          0.000000   0.000422    gir_ang
+1          0.000000   0.000331    tip_tho
+2          0.000000   0.000668    ret
 3          0.000000   0.000553    cam_rot_ant
-4          0.000000   0.000547    peralta
+4          0.000000   0.000547    per
 5          0.000713   0.003148    giraffatippelskirchicam_rot_antperaltareticulata
 6          0.000316   0.001844    giraffatippelskirchi
 7          0.000279   0.000966    cam_rot_antperaltareticulata

@@ -1,6 +1,6 @@
 #NEXUS
 BEGIN TREES;
-	UTREE 1 = ((giraffa: 0.000315, tippelskirchi: 0.000315)giraffatippelskirchi[&height_95%_HPD={0.00017100, 0.00047200}, theta=0.0019600]: 0.000438, (cam_rot_antperalta: 0.000326, reticulata: 0.000326)cam_rot_antperaltareticulata[&height_95%_HPD={0.00008600, 0.00072100}, theta=0.0011007]: 0.000427)giraffatippelskirchicam_rot_antperaltareticulata[&height_95%_HPD={0.00053200, 0.00098300}, theta=0.0030790];
+	UTREE 1 = ((gir_ang: 0.000315, tip_tho: 0.000315)giraffatippelskirchi[&height_95%_HPD={0.00017100, 0.00047200}, theta=0.0019600]: 0.000438, (cam_rot_antperalta: 0.000326, ret: 0.000326)cam_rot_antperaltareticulata[&height_95%_HPD={0.00008600, 0.00072100}, theta=0.0011007]: 0.000427)giraffatippelskirchicam_rot_antperaltareticulata[&height_95%_HPD={0.00053200, 0.00098300}, theta=0.0030790];
 END;
 
 [Species tree with tau as branch lengths and theta as labels, for FigTree.

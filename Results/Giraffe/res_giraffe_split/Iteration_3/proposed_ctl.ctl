@@ -5,9 +5,9 @@ outfile=out.txt
 mcmcfile=mcmc.txt
 speciesdelimitation=0
 speciestree=0
-species&tree=4 giraffa tippelskirchi reticulata cam_rot_antperalta
+species&tree=4 gir_ang tip_tho ret cam_rot_antperalta
                23  7  12  24
-               ((giraffa,tippelskirchi),(cam_rot_antperalta,reticulata));
+               ((gir_ang,tip_tho),(cam_rot_antperalta,ret));
 phase=0 0 0 0 
 usedata=1
 nloci=21
@@ -23,7 +23,7 @@ nsample=500000
 threads=8
 migprior=0.1 10
 migration = 4
-	reticulata tippelskirchi
-	tippelskirchi reticulata
-	reticulata cam_rot_antperalta
-	cam_rot_antperalta reticulata
+	ret tip_tho
+	tip_tho ret
+	ret cam_rot_antperalta
+	cam_rot_antperalta ret

@@ -1,4 +1,4 @@
 cam_rot_antperalta	cam_rot_antperalta
-giraffa	giraffa
-reticulata	reticulata
-tippelskirchi	tippelskirchi
+gir_ang	gir_ang
+ret	ret
+tip_tho	tip_tho

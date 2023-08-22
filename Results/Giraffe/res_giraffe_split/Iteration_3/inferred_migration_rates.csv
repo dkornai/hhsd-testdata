@@ -1,5 +1,5 @@
 ,source,destination,M
-0,tippelskirchi,reticulata,0.002368
-1,reticulata,tippelskirchi,0.001541
-2,reticulata,cam_rot_antperalta,0.029132
-3,cam_rot_antperalta,reticulata,0.11761
+0,tip_tho,ret,0.002368
+1,ret,tip_tho,0.001541
+2,ret,cam_rot_antperalta,0.029132
+3,cam_rot_antperalta,ret,0.11761

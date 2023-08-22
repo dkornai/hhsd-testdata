@@ -5,8 +5,7 @@ seqfile = trigentalt.txt
 
 guide_tree = ((Ge,Tr),Al);
 migration = {
-    Ge -> Tr,
-    Tr -> Ge,
+    Ge <-> Tr,
 }
 migprior = 0.1 10
 
@@ -15,4 +14,4 @@ GDI_threshold = <0.3
 
 threads = 8
 burnin = 50000
-nsample = 50000
+nsample = 100000

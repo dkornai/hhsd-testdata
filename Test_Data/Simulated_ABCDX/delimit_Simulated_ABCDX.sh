@@ -3,5 +3,5 @@ rm -rf res_sim_split
 rm -rf res_sim_merge
 
 # run new analyses
-HMDelimit --mcfile mcf_sim_merge.txt --mcfpor burnin = 50000, nsample = 200000
-HMDelimit --mcfile mcf_sim_split.txt --mcfpor burnin = 50000, nsample = 200000
+HMDelimit --cfile mcf_sim_merge.txt --cfpor burnin = 50000, nsample = 200000
+HMDelimit --cfile mcf_sim_split.txt --cfpor burnin = 50000, nsample = 200000

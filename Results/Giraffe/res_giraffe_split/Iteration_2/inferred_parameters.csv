@@ -1,7 +1,7 @@
 ,theta,tau
-giraffa,0.000426,
-tippelskirchi,0.000331,
-reticulata,0.000613,
+gir_ang,0.000426,
+tip_tho,0.000331,
+ret,0.000613,
 cam_rot_antperalta,0.000804,
 giraffatippelskirchicam_rot_antperaltareticulata,0.003079,0.000753
 giraffatippelskirchi,0.00196,0.000315

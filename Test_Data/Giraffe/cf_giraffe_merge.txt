@@ -1,0 +1,18 @@
+output_directory = res_giraffe_merge
+
+Imapfile = Imap_Giraffe.txt
+seqfile = MSA_Giraffe.txt
+
+guide_tree = ((gir_ang, tip_tho), ((cam_rot_ant, per), ret));
+migration = {
+    ret <-> tip_tho,
+    ret <-> cam_rot_ant,
+}
+migprior = 0.1 10
+
+mode = merge
+GDI_threshold = <0.3
+
+threads = 8
+burnin = 5000
+nsample = 10000
