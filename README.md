@@ -1,12 +1,8 @@
 # HMDelimit_Test_Data
 
-This repo contains 5 different datasets used to test the species delimitation program HMDelimit
+This repo contains 4 different datasets used to test the species delimitation program HMDelimit
 
 ## Data sources
-
-### Albinaria
-
-https://doi.org/10.1093/sysbio/syab050
 
 ### Giraffe:
 
