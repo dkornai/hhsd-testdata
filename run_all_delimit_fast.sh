@@ -15,7 +15,3 @@ cd ..
 cd Sunfish
 bash delimit_Sunfish_fast.sh
 cd ..
-
-cd Albinaria
-bash delimit_Albinaria_fast.sh
-cd ..
