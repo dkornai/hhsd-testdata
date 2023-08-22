@@ -1,0 +1,22 @@
+output_directory = res_milksnake_merge
+
+Imapfile = Imap_Lampropeltis.txt
+seqfile = MSA_Lampropeltis.txt
+
+guide_tree = (((Po, (Ab, Mi)), (An, (Ge, Tr))), El);
+migration = {
+	Po <-> Ab,
+	Po <-> An,
+	An <-> Ge,
+	Ge <-> Tr,
+	Ge <-> El,
+	Tr <-> El,
+	}
+migprior = 0.1 10
+
+mode = merge
+GDI_threshold = <0.3
+
+threads = 8
+burnin = 5000
+nsample = 10000
