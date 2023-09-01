@@ -18,5 +18,5 @@ mode = split
 GDI_threshold = >0.7
 
 threads = 8
-burnin = 5000
-nsample = 10000
+burnin = 500
+nsample = 2000

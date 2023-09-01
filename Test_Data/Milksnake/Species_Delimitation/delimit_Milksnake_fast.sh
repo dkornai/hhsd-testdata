@@ -3,5 +3,5 @@ rm -rf res_milksnake_split
 rm -rf res_milksnake_merge
 
 # run new analyses
-HMDelimit --cfile cf_milksnake_merge.txt
-HMDelimit --cfile cf_milksnake_split.txt
+hhsd --cfile cf_milksnake_merge.txt
+hhsd --cfile cf_milksnake_split.txt

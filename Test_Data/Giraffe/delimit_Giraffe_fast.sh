@@ -3,5 +3,5 @@ rm -rf res_giraffe_split
 rm -rf res_giraffe_merge
 
 # run new analyses
-HMDelimit --cfile cf_giraffe_merge.txt
-HMDelimit --cfile cf_giraffe_split.txt
+hhsd --cfile cf_giraffe_merge.txt
+hhsd --cfile cf_giraffe_split.txt
