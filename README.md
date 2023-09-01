@@ -1,4 +1,4 @@
-# HMDelimit_Test_Data
+# hhsd-testdata
 
 This repo contains 4 different datasets used to test the species delimitation program hhsd
 
