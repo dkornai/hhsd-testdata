@@ -1,0 +1,7 @@
+#NEXUS
+BEGIN TREES;
+	UTREE 1 = (PELOZKMEGLITSOL: 0.001304, AQU: 0.001304)PELOZKMEGLITSOLAQU[&height_95%_HPD={0.00081000, 0.00229200}, theta=0.0038075];
+END;
+
+[Species tree with tau as branch lengths and theta as labels, for FigTree.
+In FigTree, choose 95%HPD for Node Bars and label for Node Labels]

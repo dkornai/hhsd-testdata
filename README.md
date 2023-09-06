@@ -1,6 +1,6 @@
 # hhsd-testdata
 
-This repo contains 4 different datasets used to test the species delimitation program hhsd
+This repo contains 4 different datasets used to test the species delimitation program hhsd, as contained in the manuscript titled "Hierarchical heuristic species delimitation under the multispecies coalescent model with migration"
 
 ## Data sources
 
@@ -20,7 +20,7 @@ https://doi.org/10.1093/sysbio/syab029
 
 https://doi.org/10.1093/sysbio/syy051
 
-## Running analyses
+## Running all analyses
 
 `run_all_delimit.sh`
 runs all analyses with very large burnin and nsample. Can take days or weeks to complete.
@@ -28,6 +28,6 @@ runs all analyses with very large burnin and nsample. Can take days or weeks to 
 `run_all_delimit_fast.sh`
 runs all analyses with small burnin and nsample. Should take hours to complete.
 
-## Precomputed results
+## Running individual analyses
 
-The 'Results' Directory contains the output from the analyses.
+Navigate to the folder of each species, and run using the bash script. 

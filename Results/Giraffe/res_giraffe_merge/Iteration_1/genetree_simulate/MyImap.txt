@@ -1,5 +1,0 @@
-cam_rot_ant	cam_rot_ant
-ret	ret
-tip_tho	tip_tho
-per	per
-gir_ang	gir_ang

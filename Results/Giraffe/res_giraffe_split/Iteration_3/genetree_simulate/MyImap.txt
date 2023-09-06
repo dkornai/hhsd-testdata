@@ -1,4 +1,0 @@
-cam_rot_antperalta	cam_rot_antperalta
-gir_ang	gir_ang
-ret	ret
-tip_tho	tip_tho

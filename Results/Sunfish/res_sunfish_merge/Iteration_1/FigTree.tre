@@ -1,7 +1,0 @@
-#NEXUS
-BEGIN TREES;
-	UTREE 1 = (((((PEL: 0.000214, OZK: 0.000214)PELOZK[&height_95%_HPD={0.00016200, 0.00026700}, theta=0.0016203]: 0.000097, MEG: 0.000311)PELOZKMEG[&height_95%_HPD={0.00021200, 0.00041600}, theta=0.0085472]: 0.000158, LIT: 0.000468)PELOZKMEGLIT[&height_95%_HPD={0.00028600, 0.00077600}, theta=0.0271035]: 0.000412, SOL: 0.000880)PELOZKMEGLITSOL[&height_95%_HPD={0.00075000, 0.00101100}, theta=0.0045886]: 0.000016, AQU: 0.000896)PELOZKMEGLITSOLAQU[&height_95%_HPD={0.00076800, 0.00102400}, theta=0.0055635];
-END;
-
-[Species tree with tau as branch lengths and theta as labels, for FigTree.
-In FigTree, choose 95%HPD for Node Bars and label for Node Labels]
