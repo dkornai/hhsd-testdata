@@ -16,7 +16,7 @@ A Comparative Approach for Species Delimitation Based on Multiple Methods of Mul
 PLOS ONE, Volume 15, Issue 2, February 2020, Pages e0217956. 
 https://doi.org/10.1371/journal.pone.0217956.
 
-Data published at: https://osf.io/9wv86/.
+Data published at: https://osf.io/9wv86/
 
 
 ### Folder contents:
