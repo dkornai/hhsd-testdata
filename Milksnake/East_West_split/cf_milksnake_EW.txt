@@ -1,17 +1,24 @@
-output_directory = 
+# output
+output_directory = # will be set from the command line
 
-Imapfile = 
+# input files
+Imapfile = # will be set from the command line
 seqfile = trigentalt.txt
 
+# guide tree
 guide_tree = ((Ge,Tr),Al);
+
+# migration events and priors
 migration = {
     Ge <-> Tr,
 }
 migprior = 0.1 10
 
+# hierarchical algorithm settings
 mode = merge
 GDI_threshold = <0.3
 
+# BPP MCMC settings
 threads = 8
 burnin = 50000
 nsample = 100000

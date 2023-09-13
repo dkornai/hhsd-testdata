@@ -1,5 +1,3 @@
-cd Test_Data
-
 cd Giraffe
 bash delimit_giraffe.sh
 cd ..
