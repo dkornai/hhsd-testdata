@@ -16,7 +16,7 @@ migprior = 0.1 10
 
 # hierarchical algorithm settings
 mode = merge
-GDI_threshold = <0.3
+gdi_threshold = <0.3
 
 # BPP MCMC settings
 threads = 8
