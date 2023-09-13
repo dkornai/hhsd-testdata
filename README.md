@@ -6,11 +6,6 @@ Contains all data and control files needed to reproduce results from 'Hierarchic
 
 # Contents
 
-## /
-### Folder contents:
-- `run_all_delimit.sh` bash script for reproducing the four species delimitation analyses, with a very long runtime (weeks)
-- `run_all_delimit_fast.sh` bash script for reproducing a the four species delimitation analyses, with rapid execution (hours) but potentially inaccurate results
-
 ## /Giraffe/
 ### Original publication:
 Alice Petzold, Alexandre Hassanin, 
@@ -103,14 +98,7 @@ Data published at: http://dx.doi.org/10.5061/dryad.dbrv15f05
 ---
 
 
-## Running all analyses
-
-`run_all_delimit.sh`
-runs all analyses with very large burnin and nsample. Can take days or weeks to complete.
-
-`run_all_delimit_fast.sh`
-runs all analyses with small burnin and nsample. Should take hours to complete.
-
-## Running individual analyses
-
-Navigate to the folder of each species, and run using the bash script. 
+## /
+### Folder contents:
+- `run_all_delimit.sh` bash script for reproducing the four species delimitation analyses, with a very long runtime (weeks)
+- `run_all_delimit_fast.sh` bash script for reproducing a the four species delimitation analyses, with rapid execution (hours) but potentially inaccurate results
