@@ -1,17 +1,17 @@
 cd Test_Data
 
 cd Giraffe
-bash delimit_Giraffe.sh
+bash delimit_giraffe.sh
 cd ..
 
 cd Milksnake/Species_Delimitation
-bash delimit_Milksnake.sh
+bash delimit_milksnake.sh
 cd ../..
 
 cd Simulated_ABCDX
-bash delimit_Simulated_ABCDX.sh
+bash delimit_simulated_ABCDX.sh
 cd ..
 
 cd Sunfish
-bash delimit_Sunfish.sh
+bash delimit_sunfish.sh
 cd ..
