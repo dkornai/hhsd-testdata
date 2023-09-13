@@ -1,12 +1,15 @@
 # Introduction
 Contains all data and control files needed to reproduce results from 'Hierarchical heuristic species delimitation under the multispecies coalescent model with migration'.
 
-*Running of analyses requires the user install hhsd from https://github.com/abacus-gene/hhsd*
-*bash scripts only work if bash is installed, and the file system is unix-like!  (e.g. forward slashes for folders)*
+- *Running of analyses requires the user install hhsd from https://github.com/abacus-gene/hhsd*
+- *bash scripts only work if bash is installed, and the file system is unix-like!  (e.g. forward slashes for folders)*
 
 # Contents
 
 ## /Giraffe/
+
+Control files and empirical data for conducting hierarchical heuristic species delimitation on complex of five Giraffe populations.
+
 ### Original publication:
 Alice Petzold, Alexandre Hassanin, 
 A Comparative Approach for Species Delimitation Based on Multiple Methods of Multi-Locus DNA Sequence Analysis: A Case Study of the Genus Giraffa (Mammalia,Cetartiodactyla), 
@@ -28,6 +31,9 @@ Data published at: https://osf.io/9wv86/.
 ---
 
 ## /Milksnake/
+
+Control files and empirical data for conducting hierarchical heuristic species delimitation on a complex of seven Milksnake populations, and exploring five potential alternative delimitations of two populations.
+
 ### Original publication:
 E Anne Chambers, David M Hillis, 
 The Multispecies Coalescent Over-Splits Species in the Case of Geographically Widespread Taxa, 
@@ -59,6 +65,9 @@ Data published at: https://doi.org/10.5061/dryad.7hs34mj
 ---
 
 ## /Simulated_ABCDX/
+
+Control file and simulated data for demonstrating the fundamental mechanisms of hierarchical heuristic species delimitation.
+
 ### Original publication:
 Adam D Leaché, Tianqi Zhu, Bruce Rannala, Ziheng Yang, 
 The Spectre of Too Many Species, 
@@ -78,6 +87,9 @@ Data published at: https://doi.org/10.5061/dryad.t66gq81
 ---
 
 ## /Sunfish/
+
+Control files and empirical data for conducting hierarchical heuristic species delimitation on complex of five six Sunfish populations.
+
 ### Original publication:
 Daemin Kim, Bruce H Bauer, Thomas J Near, 
 Introgression and Species Delimitation in the Longear Sunfish Lepomis megalotis (Teleostei: Percomorpha: Centrarchidae), 
@@ -99,6 +111,9 @@ Data published at: http://dx.doi.org/10.5061/dryad.dbrv15f05
 
 
 ## /
+
+Bash scripts for running delimitation on the four species complexes (Giraffes, Milksnakes, Sunfish, Simulated data). This excludes the anlyses of alternative two-species delimitaions in milksnakes.
+
 ### Folder contents:
 - `run_all_delimit.sh` bash script for reproducing the four species delimitation analyses, with a very long runtime (weeks)
 - `run_all_delimit_fast.sh` bash script for reproducing a the four species delimitation analyses, with rapid execution (hours) but potentially inaccurate results
