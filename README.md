@@ -2,7 +2,7 @@
 Contains all data and control files needed to reproduce results from 'Hierarchical heuristic species delimitation under the multispecies coalescent model with migration'.
 
 - *Running of analyses requires the user install hhsd from https://github.com/abacus-gene/hhsd*
-- *bash scripts only work if bash is installed, and the file system is unix-like!  (e.g. forward slashes for folders)*
+- *bash scripts only work if bash is installed, and the file system is unix-like!  (e.g. forward slashes for filepaths)*
 
 # Contents
 
