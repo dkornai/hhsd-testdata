@@ -1,5 +1,5 @@
 # output
-output_directory = res_milksnake_merge
+output_directory = res_milksnake_split
 
 # input files
 Imapfile = Imap_Lampropeltis.txt

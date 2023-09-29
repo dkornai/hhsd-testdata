@@ -1,5 +1,5 @@
 # output
-output_directory = res_sunfish_merge
+output_directory = res_sunfish_split
 
 # input files
 Imapfile = Imap_Sunfish.txt
