@@ -1,5 +1,5 @@
 # Introduction
-Contains all data and control files needed to reproduce results from 'Hierarchical heuristic species delimitation under the multispecies coalescent model with migration'. Also available at: https://doi.org/doi:10.5061/dryad.jm63xsjhc.
+Contains all data and control files needed to reproduce results from 'Hierarchical heuristic species delimitation under the multispecies coalescent model with migration'. This dataset is also available at: https://doi.org/doi:10.5061/dryad.jm63xsjhc.
 
 - *Running of analyses requires the user install hhsd from https://github.com/abacus-gene/hhsd*
 - *bash scripts only work if bash is installed, and the file system is unix-like!  (e.g. forward slashes for filepaths)*
