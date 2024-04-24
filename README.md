@@ -6,7 +6,7 @@ Contains all data and control files needed to reproduce results from 'Hierarchic
 
 # Contents
 
-## /Giraffe/
+## Empirical/Giraffe/
 
 Control files and empirical data for conducting hierarchical heuristic species delimitation on complex of five Giraffe populations.
 
@@ -25,12 +25,12 @@ Data published at: https://osf.io/9wv86/
 - `MSA_Giraffe` MSA
 - `cf_giraffe_merge.txt` hhsd control file for merge analysis
 - `cf_giraffe_split.txt` hhsd control file for split analysis
-- `delimit_giraffe_fast.sh` bash script combining merge and split analysis, with rapid execution (but potentially inaccurate results)
-- `delimit_giraffe.sh` bash script combining merge and split analysis, with long execution
+- `delimit_fast.sh` bash script combining merge and split analysis, with rapid execution (but potentially inaccurate results)
+- `delimit.sh` bash script combining merge and split analysis, with long execution
 
 ---
 
-## /Milksnake/
+## Empirical/Milksnake/
 
 Control files and empirical data for conducting hierarchical heuristic species delimitation on a complex of seven Milksnake populations, and exploring five potential alternative delimitations of two populations.
 
@@ -59,34 +59,12 @@ Data published at: https://doi.org/10.5061/dryad.7hs34mj
     - `MSA_Lampropeltis` MSA
     - `cf_milksnake_merge.txt` hhsd control file for merge analysis
     - `cf_milksnake_split.txt` hhsd control file for split analysis
-    - `delimit_milksnake_fast.sh` bash script combining merge and split analysis, with rapid execution (but potentially inaccurate results)
-    - `delimit_milksnake.sh` bash script combining merge and split analysis, with long execution
+    - `delimit_fast.sh` bash script combining merge and split analysis, with rapid execution (but potentially inaccurate results)
+    - `delimit.sh` bash script combining merge and split analysis, with long execution
 
 ---
 
-## /Simulated_ABCDX/
-
-Control file and simulated data for demonstrating the fundamental mechanisms of hierarchical heuristic species delimitation.
-
-### Original publication:
-Adam D Leaché, Tianqi Zhu, Bruce Rannala, Ziheng Yang, 
-The Spectre of Too Many Species, 
-Systematic Biology, Volume 68, Issue 1, January 2019, Pages 168–181, 
-https://doi.org/10.1093/sysbio/syy051
-
-Data published at: https://doi.org/10.5061/dryad.t66gq81
-
-
-### Folder contents:
-- `MyImap.txt` Imap file
-- `MySeq` MSA
-- `cf_sim_merge.txt` hhsd control file for merge analysis
-- `delimit_simulated_ABCDX_fast.sh` bash script for merge analysis, with rapid execution (but potentially inaccurate results)
-- `delimit_simulated_ABCDX.sh` bash script for merge analysis, with long execution
-
----
-
-## /Sunfish/
+## Empirical/Sunfish/
 
 Control files and empirical data for conducting hierarchical heuristic species delimitation on complex of five six Sunfish populations.
 
@@ -104,16 +82,59 @@ Data published at: http://dx.doi.org/10.5061/dryad.dbrv15f05
 - `MSA_sunfish` MSA
 - `cf_sunfish_merge.txt` hhsd control file for merge analysis
 - `cf_sunfish_split.txt` hhsd control file for split analysis
-- `delimit_sunfish_fast.sh` bash script combining merge and split analysis, with rapid execution (but potentially inaccurate results)
-- `delimit_sunfish.sh` bash script combining merge and split analysis, with long execution
+- `delimit_fast.sh` bash script combining merge and split analysis, with rapid execution (but potentially inaccurate results)
+- `delimit.sh` bash script combining merge and split analysis, with long execution
+
+---
+
+## Simulated/Simulated_ABCD/
+
+Control file and simulated data for demonstrating the basic behaviour and control of the program.
+
+### Folder contents:
+- `Genereate/` Subfolder containing the scripts required to recreate the dataset
+    - `sim.ctl` bpp --simulate control file
+- `MyImap.txt` Imap file
+- `MySeq` MSA
+- `cf_sim_merge.txt` hhsd control file for merge analysis
+- `cf_sim_split.txt` hhsd control file for merge analysis
+- `delimit_fast.sh` bash script for merge and split analyses, with rapid execution (but potentially inaccurate results)
+- `delimit.sh` bash script for merge and split analyses, with long execution
+
+---
+
+## Simulated/Simulated_ABCDX/
+
+Control file and simulated data for demonstrating behaviour with paraphyletic species
+
+### Original publication:
+Adam D Leaché, Tianqi Zhu, Bruce Rannala, Ziheng Yang, 
+The Spectre of Too Many Species, 
+Systematic Biology, Volume 68, Issue 1, January 2019, Pages 168–181, 
+https://doi.org/10.1093/sysbio/syy051
+
+Data published at: https://doi.org/10.5061/dryad.t66gq81
+
+
+### Folder contents:
+- `Genereate/` Subfolder containing the scripts required to recreate the dataset
+    - `sim.ctl` bpp --simulate control file
+- `MyImap.txt` Imap file
+- `MySeq` MSA
+- `cf_sim_merge.txt` hhsd control file for merge analysis
+- `delimit_simulated_ABCDX_fast.sh` bash script for merge analysis, with rapid execution (but potentially inaccurate results)
+- `delimit_simulated_ABCDX.sh` bash script for merge analysis, with long execution
 
 ---
 
 
+
+
 ## /
 
-Bash scripts for running delimitation on the four species complexes (Giraffes, Milksnakes, Sunfish, Simulated data). This excludes the anlyses of alternative two-species delimitaions in milksnakes.
-
 ### Folder contents:
-- `run_all_delimit.sh` bash script for reproducing the four species delimitation analyses, with a very long runtime (weeks)
-- `run_all_delimit_fast.sh` bash script for reproducing a the four species delimitation analyses, with rapid execution (hours) but potentially inaccurate results
+- `run_all_emp.sh` bash script for reproducing the three empirical species delimitation analyses, with a very long runtime (weeks)
+- `run_all_emp_fast.sh` bash script for reproducing the three empirical species delimitation analyses, with rapid execution (hours) but potentially inaccurate results
+
+- `run_all_sim.sh` bash script for reproducing the two simulated species delimitation analyses, with a very long runtime (weeks)
+- `run_all_sim_fast.sh` bash script for reproducing the two simulated species delimitation analyses, with rapid execution (hours) but potentially inaccurate results
