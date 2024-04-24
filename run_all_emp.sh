@@ -1,11 +1,11 @@
-cd Simulated/Giraffe
+cd Empirical/Giraffe
 bash delimit.sh
 cd ../..
 
-cd Simulated/Milksnake/Species_Delimitation
+cd Empirical/Milksnake/Species_Delimitation
 bash delimit.sh
 cd ../../..
 
-cd Simulated/Sunfish
+cd Empirical/Sunfish
 bash delimit.sh
 cd ../..
