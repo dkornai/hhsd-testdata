@@ -10,7 +10,7 @@ guide_tree = (((A,B),(C,D)),X);
 
 # hierarchical algorithm settings
 mode = merge
-gdi_threshold = <0.2
+gdi_threshold = <=0.2, <=1.0
 
 # BPP MCMC settings
 threads = 12
